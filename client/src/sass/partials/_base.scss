@@ -1,0 +1,27 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+ul{
+  list-style: none;
+}
+
+
+#container-app {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  #main-content {
+    flex: 1;
+  }
+
+.todo-container{
+    margin-top: 10rem;
+}
+
+.pointer{
+  cursor: pointer;
+}
